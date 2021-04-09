@@ -23,12 +23,10 @@ servo1.start(0)
 # Loop to allow user to set servo angle. Try/finally allows exit
 # with execution of servo.stop and GPIO cleanup :)
 
-
-        #Ask user for angle and turn servo to it
-        angle = float(input('Enter angle between 0 & 180: '))
-        servo1.ChangeDutyCycle(2+(angle/18))
-        time.sleep(0.5)
-        servo1.ChangeDutyCycle(0)
+servo1.ChangeDutyCycle(2+(angle/18))
+time.sleep(0.5)
+servo1.ChangeDutyCycle(0)
+cleaning_things_at_the_end()
 
 
 
