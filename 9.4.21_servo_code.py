@@ -1,5 +1,5 @@
 #link to website where inital code was from: https://www.explainingcomputers.com/sample_code/Servo_Test_CC_Go_to_Angle.py
-
+# change pins
 # we need to add the camera module and PIR Sensor code
 
 
