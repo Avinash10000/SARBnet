@@ -10,6 +10,17 @@ def cleaning_things_at_the_end():
   servo1.stop()
   GPIO.cleanup()
   print("Goodbye!")
+  
+# defining the movement (90 degrees clockwise)
+# time statment can be anything
+# ChangeDutyCycle = 0 removes jitters by servo motor
+# adding 2 is necessary
+def moving_motor_90_clockwise():
+  servo1.ChangeDutyCycle(2+(90/18))
+  time.sleep(0.5)
+  servo1.ChangeDutyCycle(0)
+  
+  
 # Set GPIO numbering mode
 GPIO.setmode(GPIO.BOARD)
 
@@ -23,9 +34,7 @@ servo1.start(0)
 # Loop to allow user to set servo angle. Try/finally allows exit
 # with execution of servo.stop and GPIO cleanup :)
 
-servo1.ChangeDutyCycle(2+(angle/18))
-time.sleep(0.5)
-servo1.ChangeDutyCycle(0)
+
 cleaning_things_at_the_end()
 
 
