@@ -1,3 +1,8 @@
+#https://www.learnrobotics.org/blog/raspberry-pi-servo-motor/
+- #where I got my code from 
+#https://drive.google.com/file/d/1vy77kxSVM_PSUzkhrlFFGU6p4DDUlGNo/view?usp=drivesdkhttps://drive.google.com/file/d/1vy77kxSVM_PSUzkhrlFFGU6p4DDUlGNo/view?usp=drivesdk
+
+  
 #First, import the RPi.GPIO library and the sleep function.
 import RPi.GPIO as GPIO
 from time import sleep
@@ -22,3 +27,14 @@ sleep(1)
 
 pwm.stop()
 GPIO.cleanup()
+
+#Now, you can create a Python function based on this formula to calculate the duty cycle percentage based on a given angle.
+
+
+def setAngle(angle):
+    duty = angle / 18 + 3
+    GPIO.output(11, True)
+    pwm.ChangeDutyCycle(duty)
+    sleep(1)
+    GPIO.output(11, False)
+    pwm.ChangeDutyCycle(duty)
