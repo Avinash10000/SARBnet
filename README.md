@@ -3,8 +3,7 @@ We created a bin, known as the SARB(self automated recycling bin), using the ras
 
 # Step 1: Getting the code
 Clone the GitHub onto a raspberry pi, using 'git clone ' on the raspberry pi terminal. 
-
-# Step 2: Make the relevant folders.
-First, make a folder called 'processed_datasets' in the current directory.
+# Step 2: Run the code or Create your own dataset.
+If you are happy with the amount of images provided, all you have to do is run the code. Otherwise, you will have to add images to the file paths on the code and re preprocess the images, by running preprocess_images.py. 
 
 # Step 3:
