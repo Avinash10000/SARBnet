@@ -10,3 +10,8 @@ Clone the GitHub onto a raspberry pi, using 'git clone ' on the raspberry pi ter
 If you are happy with the amount of images provided, all you have to do is run the code. Otherwise, you will have to add images to the file paths on the code and re preprocess the images, by running preprocess_images.py. 
 
 ## Step 3:
+
+
+# Useful Links:
+
+[google colab with our code on](https://colab.research.google.com/drive/12FXVMgZL7BkdDpsMrkfoTFxgxIgPeXEP?usp=sharing)
