@@ -15,3 +15,15 @@ If you are happy with the amount of images provided, all you have to do is run t
 # Useful Links:
 
 [google colab with our code on](https://colab.research.google.com/drive/12FXVMgZL7BkdDpsMrkfoTFxgxIgPeXEP?usp=sharing)
+
+
+## Model Summary and Loss/Val Loss Chart
+
+![loss_and_val_loss](https://user-images.githubusercontent.com/74100481/116826085-220c4c80-ab8a-11eb-853d-097272bc223f.jpg)
+![This is the Model Summary](https://user-images.githubusercontent.com/74100481/116826087-246ea680-ab8a-11eb-943f-5180637ec508.png)
+
+##Predictions
+
+These are the predictions that the SARBnet.ipynb code produced.
+
+
