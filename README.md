@@ -17,14 +17,20 @@ If you are happy with the amount of images provided, all you have to do is run t
 ## Model Summary and Loss/Val Loss Chart
 
 ![loss_and_val_loss](https://user-images.githubusercontent.com/74100481/116826085-220c4c80-ab8a-11eb-853d-097272bc223f.jpg)
-
+Above is the train_loss and val_loss.
 
 ![This is the Model Summary](https://user-images.githubusercontent.com/74100481/116826087-246ea680-ab8a-11eb-943f-5180637ec508.png)
-
+Above is the model_summary
 ## Predictions
 
 These are the predictions that the SARBnet.ipynb code produced.
 ![prediction_1](https://user-images.githubusercontent.com/74100481/116826422-ce026780-ab8b-11eb-94d8-2bd74f2394cb.png)
+![prediction_2](https://user-images.githubusercontent.com/74100481/116826495-25a0d300-ab8c-11eb-803f-fc8ee54d0c5f.png)
+![prediction_3](https://user-images.githubusercontent.com/74100481/116826498-28032d00-ab8c-11eb-838e-f09cc4422ce1.png)
+![prediction_4](https://user-images.githubusercontent.com/74100481/116826503-2c2f4a80-ab8c-11eb-82be-60c275c25e6a.png)
+![prediction_5](https://user-images.githubusercontent.com/74100481/116826506-2e91a480-ab8c-11eb-8e4c-08384b2e6a2a.png)
+![prediction_6](https://user-images.githubusercontent.com/74100481/116826511-30f3fe80-ab8c-11eb-8619-8e595916907e.png)
+![prediction_7](https://user-images.githubusercontent.com/74100481/116826513-32bdc200-ab8c-11eb-9c2c-e45699588272.png)
 
 
 # Useful Links:
