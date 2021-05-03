@@ -7,10 +7,10 @@ We created a bin, known as the SARB(self automated recycling bin), using the ras
 ## Step 1: Getting the code
 Clone the GitHub onto a raspberry pi, using 'git clone ' on the raspberry pi terminal. 
 ## Step 2: Run the code or Create your own dataset.
-The datasets.md page has a link to the google drive here the train and test folders are.
+The datasets.md page has a link to the google drive here the train and test folders are. on your raspberry pi, download the folders onto the pi and then save them in the folder which has the cloned Github repository.
 ## Step 3: Run SARBnet.ipynb with the right file paths.
 all you have to do is run SARBnet.ipynb: images should be 64,64,3.
-##Step 4: Move everything 
+## Step 4: Move everything 
 
 
 
