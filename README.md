@@ -15,7 +15,8 @@ Download all required modules and specify the constants you need
 ## Step 5: Run SARBnet_2.ipynb (take picture and classify picture)
 Run the code in the take picture section. Then, make sure you have a copy of the trained model (linked to on 'train_model(h5).md') in the same folder as SARBnet_2.ipynb.
 
-
+# An Alternate Route that Will save you time.
+if you do not want to train the CNN/ neural network at all, you can skip SARBnet_1.ipynb.
 
 
 ## Model Summary and Loss/Val Loss Chart
