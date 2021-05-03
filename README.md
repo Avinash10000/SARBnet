@@ -39,5 +39,5 @@ These are the predictions that the SARBnet.ipynb code produced.
 
 # Useful Links:
 
-[google colab with our code on](https://colab.research.google.com/drive/12FXVMgZL7BkdDpsMrkfoTFxgxIgPeXEP?usp=sharing)
-
+The link to SARBnet,ipynb is: [here](https://colab.research.google.com/drive/12FXVMgZL7BkdDpsMrkfoTFxgxIgPeXEP?usp=sharing)
+The link to SARBnet_2.ipynb is: [here](https://colab.research.google.com/drive/1u298qfyLcxOH-WOe-d2AnkRe1HuRtjk3?usp=sharing)
