@@ -19,8 +19,9 @@ all you have to do is run SARBnet.ipynb: images should be 64,64,3.
 ## Model Summary and Loss/Val Loss Chart
 
 ![loss_and_val_loss](https://user-images.githubusercontent.com/74100481/116826085-220c4c80-ab8a-11eb-853d-097272bc223f.jpg)
-Above is the train_loss and val_loss.
-Below is the model_summary
+##Above is the train_loss and val_loss.
+
+##Below is the model_summary
 
 ![This is the Model Summary](https://user-images.githubusercontent.com/74100481/116826087-246ea680-ab8a-11eb-943f-5180637ec508.png)
 
