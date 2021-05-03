@@ -13,7 +13,7 @@ all you have to do is run SARBnet.ipynb: images should be 64,64,3.
 ## Step 4: Run SARBnet_2.ipynb (constants and requirements)
 Download all required modules and specify the constants you need
 ## Step 5: Run SARBnet_2.ipynb (take picture and classify picture)
-Run the code in the take picture section. Then, make sure you have a copy of the trained model (an output of step 3) in the same folder as SARBnet_2.ipynb.
+Run the code in the take picture section. Then, make sure you have a copy of the trained model (linked to on 'train_model(h5).md') in the same folder as SARBnet_2.ipynb.
 
 
 
