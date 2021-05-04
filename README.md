@@ -12,8 +12,8 @@ The datasets.md page has a link to the google drive here the train and test fold
 all you have to do is run SARBnet.ipynb: images should be 64,64,3.
 ## Step 4: Run SARBnet_2.ipynb (constants and requirements)
 Download all required modules and specify the constants you need
-## Step 5: Run SARBnet_2.ipynb (take picture and classify picture)
-Run the code in the take picture section. Then, make sure you have a copy of the trained model (linked to on 'train_model(h5).md') in the same folder as SARBnet_2.ipynb.
+## Step 5: Run SARBnet_2.ipynb (Taking Picture and Running PIR Sensor/PiCamera/Servo Motor Code)
+Run the code in the Taking Picture and Running PIR Sensor/PiCamera/Servo Motor Code. This code combines the PIR Sensor signal of a movement with the Camera Module V2, whcih takes a photo. then the photo is classified and depending on its classification, the servo motor will be instructed to move a certain direction. Also, make sure you have a copy of the trained model (linked to on 'train_model(h5).md') in the same folder as SARBnet_2.ipynb.
 
 # An Alternate Route that Will save you time.
 if you do not want to train the CNN/ neural network at all, you can skip SARBnet_1.ipynb.
