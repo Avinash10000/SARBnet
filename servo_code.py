@@ -1,7 +1,37 @@
 #link to website where inital code was from: https://www.explainingcomputers.com/sample_code/Servo_Test_CC_Go_to_Angle.py
 # change pins
 # we need to add the camera module and PIR Sensor code
+# pin numbers are ok
 
+
+import RPi.GPIO as GPIO
+import time
+import picamera
+import picamera.array
+from picamera import PiCamera
+camera = PiCamera()
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+GPIO.setup(11,GPIO.IN)
+num=1
+
+while True:
+    
+    while GPIO.input(11)==0:
+        time.sleep(0.5)
+        
+    else:
+        
+        print("PIR triggered")
+        name_of_image=time.strftime("%H:%M:%S")
+        camera.capture('/home/pi/Desktop/img'+name_of_image+'.jpg')
+        num+=1
+       
+                        
+        while GPIO.input(11)==1:
+            time.sleep(0.5)
+''' sort this out'''       
 
 # Import libraries
 import RPi.GPIO as GPIO
