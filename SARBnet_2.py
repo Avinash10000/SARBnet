@@ -67,7 +67,7 @@ GPIO.setup(11,GPIO.IN)
 num=1
 
 #load the pretrained model
-model = tf.keras.models.load_model("trained_model.h5")
+model = keras.models.load_model("trained_model.h5")
 
 def scale_X(X):
     
@@ -122,8 +122,7 @@ def store_in_folder(waste_type):
 	parent_dir = STORE_DIRECTORY+"/"+waste_type+"/"
 	num = len(glob(parent_dir+"*.jpg"))
 	print("current num images:",num)
-	os.rename(TEMP_IMG_PATH, parent_dir
-		+waste_type +str(num+1)+".jpg")
+	os.rename(TEMP_IMG_PATH, parent_dir+waste_type +str(num+1)+".jpg")
 
 
 def pir_sensor():
@@ -139,8 +138,7 @@ def pir_sensor():
         camera.stop_preview()
         stream.truncate(0)
         predict_single_img(image)
-        return image
-        
+        return (image, waste_type)        
 pir_sensor()                     
  
 
